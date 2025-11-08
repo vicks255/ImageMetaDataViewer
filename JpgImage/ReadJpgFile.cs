@@ -157,6 +157,7 @@ namespace JpgImage
                 byte[] dataBytes = [entry[8], entry[9], entry[10], entry[11]];
                 byte[] dataValueBytes;
 
+                // Check the dictionary of tags, if the tag name is found use that, if not, display as hex
                 string tagName = $"0x{Convert.ToHexString(tagBytes)}";
                 if (JpgDictionaries.DictionaryOfExifTags.ContainsKey(tagName))
                     tagName = JpgDictionaries.DictionaryOfExifTags[tagName];
@@ -186,6 +187,7 @@ namespace JpgImage
                     }
                 }
 
+                // Add the meta-data to the list
                 listOfIfds.Add(new IfdData
                 {
                     DataType = tagName,
