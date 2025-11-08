@@ -37,7 +37,8 @@
               "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\App.xaml",
               "RelativeToolTip": "ImageMetaDataEditor\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-01T23:27:44.03Z"
+              "WhenOpened": "2025-11-01T23:27:44.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +49,8 @@
               "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindow.xaml",
               "RelativeToolTip": "ImageMetaDataEditor\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-31T14:51:56.07Z"
+              "WhenOpened": "2025-10-31T14:51:56.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,7 +60,7 @@
               "RelativeDocumentMoniker": "ImageMetaDataEditor\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindowViewModel.cs",
               "RelativeToolTip": "ImageMetaDataEditor\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T22:17:19.634Z",
               "EditorCaption": ""
@@ -71,7 +73,7 @@
               "RelativeDocumentMoniker": "JpgImage\\ReadJpgFile.cs",
               "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\JpgImage\\ReadJpgFile.cs",
               "RelativeToolTip": "JpgImage\\ReadJpgFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T14:58:05.282Z",
               "EditorCaption": ""

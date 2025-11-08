@@ -5,6 +5,25 @@ namespace JpgImage
 {
     public class ReadJpgFile
     {
+        /******************************************************************************************
+         *  Byte order: there are two places where byte order (i.e. little or big endian) needs to
+         *  be checked in order to converted to an integer correctly, the byte order in the JPEG
+         *  file and the byte order of the processor.  To determine if the array needs to be
+         *  reversed or not prior to converting is a simple matter checking to see if the processor
+         *  and the file share the same byte order.
+         *  
+         *  If the byte order of the file and the process are the same convert the bytes.
+         *  If not, reverse the byte array and then convert.
+         *  
+         *  Strategy for retrieving the meta-data from the JPEG file (i.e. sub-problems)
+         *      1) Break the file into a list of its segments
+         *      2) Scan the segmets for EXIF data
+         *      3) Separate the TIFF portion of the EXIF data
+         *      4) Retrieve the IDF tables from the TIFF
+         *      5) Use the IDF tables to retrieve the meta-data from the TIFF
+         ******************************************************************************************/
+
+
         public List<byte[]> GetSegments(string fileName)
         {
             byte[] jpgFileBytes = File.ReadAllBytes(fileName);
@@ -51,7 +70,7 @@ namespace JpgImage
         }
 
 
-        public List<byte[]> GetIfdTableEntries(bool isLittleEndian, byte[] tiffData)
+        private List<byte[]> GetIfdTableEntries(bool isLittleEndian, byte[] tiffData)
         {
             /************************************ TABLE FORMAT ************************************
              *   Table Size:            2-byte integer
@@ -111,7 +130,7 @@ namespace JpgImage
         }
 
 
-        public List<IfdData> GetExifData(byte[] exifSegment)
+        public List<IfdData> GetMetaData(byte[] exifSegment)
         {
             // check if this is an EXIF segment, return and empty list of not
             List<IfdData> listOfIfds = new List<IfdData>();

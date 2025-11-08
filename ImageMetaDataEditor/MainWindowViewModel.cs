@@ -16,7 +16,6 @@ namespace ImageMetaDataEditor
         }
 
 
-
         private string _comSegmentText;
         public string ComSegmentText
         {
@@ -80,7 +79,7 @@ namespace ImageMetaDataEditor
                         -----------------------------------------
                         """;
 
-                    List<IfdData> listOfIfds = readJpgFile.GetExifData(segment);
+                    List<IfdData> listOfIfds = readJpgFile.GetMetaData(segment);
                     if(listOfIfds.Count > 0)
                     {
                         foreach (IfdData data in listOfIfds)
