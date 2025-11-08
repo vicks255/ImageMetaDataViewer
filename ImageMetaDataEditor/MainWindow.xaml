@@ -1,0 +1,26 @@
+﻿<Window x:Class="ImageMetaDataEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageMetaDataEditor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="510" Width="1035">
+    
+    
+    <StackPanel>
+        <Button Content="Load JPG File"
+                Command="{Binding LoadJpgFileCommand}"/>
+
+        <StackPanel Orientation="Horizontal">
+            <TextBox Text="{Binding ComSegmentText}" 
+                     MaxHeight="400"
+                     MaxWidth="1000"
+                     VerticalScrollBarVisibility="Auto"
+                     HorizontalScrollBarVisibility="Auto"
+                     IsReadOnly="True"/>
+        </StackPanel>
+
+        
+    </StackPanel>
+</Window>
