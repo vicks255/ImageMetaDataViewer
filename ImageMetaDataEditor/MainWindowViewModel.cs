@@ -54,7 +54,7 @@ namespace ImageMetaDataEditor
             foreach (byte[] segment in segments)
             {
                 // Checking if COM segment.
-                if (segment[1] == 0xfe)
+                if (segment[1] == 0xFE)
                 {
                     comSegment += 
                         $"""
@@ -68,7 +68,7 @@ namespace ImageMetaDataEditor
                 }
 
                 // Checking if APPn segment
-                else if (segment[1] >= 0xe0 && segment[1] <= 0xef)
+                else if (segment[1] >= 0xE0 && segment[1] <= 0xEF)
                 {
                     comSegment +=
                         $"""

@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\",
+  "WorkspaceRootPath": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\source\\repos\\imagemetadataeditor\\imagemetadataeditor\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\documents\\git\\imagemetadataviewer\\imagemetadataeditor\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|solutionrelative:imagemetadataeditor\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CC0D33D-0947-4167-B4AB-EF73C02872BA}|JpgImage\\JpgImage.csproj|c:\\users\\vicks\\source\\repos\\imagemetadataeditor\\jpgimage\\readjpgfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4CC0D33D-0947-4167-B4AB-EF73C02872BA}|JpgImage\\JpgImage.csproj|c:\\users\\vicks\\documents\\git\\imagemetadataviewer\\jpgimage\\readjpgfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CC0D33D-0947-4167-B4AB-EF73C02872BA}|JpgImage\\JpgImage.csproj|solutionrelative:jpgimage\\readjpgfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\source\\repos\\imagemetadataeditor\\imagemetadataeditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\documents\\git\\imagemetadataviewer\\imagemetadataeditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|solutionrelative:imagemetadataeditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\source\\repos\\imagemetadataeditor\\imagemetadataeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|c:\\users\\vicks\\documents\\git\\imagemetadataviewer\\imagemetadataeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{904C6685-455D-4706-B29A-868827DC5761}|ImageMetaDataEditor\\ImageMetaDataEditor.csproj|solutionrelative:imagemetadataeditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,35 +32,33 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\App.xaml",
               "RelativeDocumentMoniker": "ImageMetaDataEditor\\App.xaml",
-              "ToolTip": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\App.xaml",
+              "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\App.xaml",
               "RelativeToolTip": "ImageMetaDataEditor\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-01T23:27:44.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T23:27:44.03Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ImageMetaDataEditor\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindow.xaml",
               "RelativeToolTip": "ImageMetaDataEditor\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-31T14:51:56.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T14:51:56.07Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ImageMetaDataEditor\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\ImageMetaDataEditor\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\ImageMetaDataEditor\\MainWindowViewModel.cs",
               "RelativeToolTip": "ImageMetaDataEditor\\MainWindowViewModel.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwF8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T22:17:19.634Z",
               "EditorCaption": ""
@@ -69,11 +67,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ReadJpgFile.cs",
-              "DocumentMoniker": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\JpgImage\\ReadJpgFile.cs",
+              "DocumentMoniker": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\JpgImage\\ReadJpgFile.cs",
               "RelativeDocumentMoniker": "JpgImage\\ReadJpgFile.cs",
-              "ToolTip": "C:\\Users\\vicks\\source\\repos\\ImageMetaDataEditor\\JpgImage\\ReadJpgFile.cs",
+              "ToolTip": "C:\\Users\\vicks\\Documents\\GIT\\ImageMetaDataViewer\\JpgImage\\ReadJpgFile.cs",
               "RelativeToolTip": "JpgImage\\ReadJpgFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-31T14:58:05.282Z",
               "EditorCaption": ""
